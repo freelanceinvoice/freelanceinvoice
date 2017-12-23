@@ -20,5 +20,5 @@ if (php_sapi_name() === 'cli-server') {
 // Composer autoloading
 include __DIR__ . '/../vendor/autoload.php';
 
-$Application = new Application();
+$Application = new Application(include('config/application.config.php'));
 $Application->run();
