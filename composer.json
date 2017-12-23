@@ -11,11 +11,13 @@
         }
     ],
     "require": {
-        "php": ">=5.5.0"
+        "php": ">=5.5.0",
+        "doctrine/orm": "v2.5.14"
     },
     "autoload": {
         "psr-4": {
-            "FreelanceInvoice\\Mvc\\": "module/Mvc/src/"
+            "FreelanceInvoice\\Mvc\\": "module/Mvc/src/",
+            "FreelanceInvoice\\Db\\": "module/Db/src/"
         }
     },
     "minimum-stability": "dev",
