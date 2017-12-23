@@ -1,0 +1,23 @@
+{
+    "name": "freelanceinvoice/freelanceinvoice",
+    "description": "Invoicing application for freelancers",
+    "keywords": [
+        "invoice"
+    ],
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Juan Pedro Gonzalez Gutierrez"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "FreelanceInvoice\\": "core/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

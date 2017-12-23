@@ -1,0 +1,30 @@
+{
+  "name": "freelanceinvoice",
+  "homepage": "https://github.com/freelanceinvoice/freelanceinvoice",
+  "authors": [
+    "Juan Pedro Gonzalez Gutierrez <opensource@jpg-consulting.es>"
+  ],
+  "description": "Invoice application for freelancers",
+  "main": "",
+  "keywords": [
+    "invoice"
+  ],
+  "license": "GNU-3.0",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./public/assets",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.6",
+    "font-awesome": "fontawesome#^4.7.0",
+    "jquery": "^3.2.1"
+  },
+  "resolutions": {
+    "bootstrap": "v4.0.0-alpha.6"
+  }
+}
