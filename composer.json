@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "FreelanceInvoice\\": "core/"
+            "FreelanceInvoice\\Mvc\\": "module/Mvc/src/"
         }
     },
     "minimum-stability": "dev",
